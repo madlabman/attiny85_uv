@@ -29,7 +29,7 @@ extern "C" {
 //#include <USI_TWI_Master/USI_TWI_Master.h>
 }
 
-#include "TinyWireM.h"
+#include "Wire.h"
 #include "USI_TWI_Master.h"
 
 // Initialize Class Variables //////////////////////////////////////////////////
@@ -132,4 +132,4 @@ void USI_TWI::end() { USI_TWI_Master_Stop(); }
 /*!
  * @brief Makes TinyWireM an object of USI_TWI
  */
-USI_TWI TinyWireM = USI_TWI();
+USI_TWI Wire = USI_TWI();

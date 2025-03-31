@@ -189,6 +189,6 @@ public:
   void end();
 };
 
-extern USI_TWI TinyWireM;
+extern USI_TWI Wire;
 
 #endif
