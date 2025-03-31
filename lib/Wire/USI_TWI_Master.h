@@ -26,8 +26,8 @@
 // Defines controlling timing limits - SCL <= 100KHz.
 
 // For use with _delay_us()
-#define T2_TWI 5 //!< >4,7us
-#define T4_TWI 4 //!< >4,0us
+#define T2_TWI 2 //!< >4,7us
+#define T4_TWI 1 //!< >4,0us
 
 // Defines error code generating
 //#define PARAM_VERIFICATION
